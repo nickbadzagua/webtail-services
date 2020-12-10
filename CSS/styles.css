@@ -1,0 +1,142 @@
+.logo {
+    font-family: 'Baloo Tammudu Bold';
+    font-size:30px;
+    color:#FF8D33;
+    vertical-align: middle;
+    margin-top:11px;
+    color:#fff;
+}
+.nav_a {
+    font-family: 'Hind Madurai-regular';
+}
+body {
+    font-family: 'Hind Madurai-regular';
+}
+
+.navContainer {
+    width:1088px;
+    margin:0 auto;
+    padding-top:22px;
+    justify-content:space-between;
+  
+}
+.d-flex {
+    display:flex;
+}
+
+.nav_li {
+    margin:0 25px;
+    font-size:16px;
+    vertical-align: middle;
+    padding-top:10px;
+    color:#fff;
+    font-weight:500;
+}
+.nav_li:hover {
+    text-decoration:underline;
+}
+
+.pointer_click {
+    cursor: pointer;
+}
+.sign_in_button {
+    font-family: 'Hind Madurai-semibold';
+    font-size:16px;
+}
+
+.Header_container {
+    padding-bottom:15px;
+}
+
+/* Background Animation */
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+            animation: gradient 15s ease infinite;
+}
+
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+.f-left {
+    float:left;
+}
+.f-right {
+    float:right;
+}
+
+.d-flex {
+    display:flex;
+}
+
+.w-grid {
+    margin-top:50px;
+}
+
+.w-grid-container{
+    width:1300px;
+    margin:0 auto;
+    justify-content:space-between;
+}
+
+.w-heading-one {
+    font-size:20px;
+    font-family: 'Hind Madurai-semibold';
+    text-align: center;
+}
+.name-service {
+    font-size:15px;
+    font-family: 'Hind Madurai-semibold';
+    
+}
+.paragraph-service {
+    margin-top:20px;
+    width:300px;
+}
+
+.w-grid1 {
+    margin-top:100px;
+}
+
+.footer_container {
+    margin-top:100px;
+}
+.footer-texts {
+    color:#fff;
+    text-align: center;
+    font-size:15px;
+}
+
+.footer-texts2 {
+    margin-top:10px;
+    text-align:center;
+    margin-right:20px;
+    font-family: 'Hind Madurai-semibold';
+    font-size:16px;
+}
